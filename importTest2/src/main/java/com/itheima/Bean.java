@@ -9,6 +9,7 @@ public class Bean {
         for (String name : context.getBeanDefinitionNames()) {
             System.out.println(name);
             System.out.println("adadasd");
+            System.out.println("tset");
         }
 
     }
