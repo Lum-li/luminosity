@@ -8,6 +8,7 @@ public class Bean {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig.class);
         for (String name : context.getBeanDefinitionNames()) {
             System.out.println(name);
+            System.out.println("adadasd");
         }
 
     }
